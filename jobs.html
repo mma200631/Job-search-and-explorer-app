@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Jobs | Job Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        🔎💼 Job Explorer
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="careers.html">Careers</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-header">
+        <h1>Search Jobs</h1>
+        <p>Find job opportunities by keyword and location.</p>
+    </section>
+
+    <section class="search-section">
+        <form id="job-search-form">
+            <input type="text" id="keyword" placeholder="Job title (e.g. Software Developer)" required>
+            <input type="text" id="location" placeholder="Location (e.g. Lagos)" required>
+            <button type="submit" class="btn-primary">Search</button>
+        </form>
+    </section>
+
+    <section class="results-section">
+        <div id="results-container">
+            <!-- Job results will appear here -->
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Job Search & Career Explorer</p>
+</footer>
+
+<script type="module" src="js/main.mjs"></script>
+</body>
+</html>
